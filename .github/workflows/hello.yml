@@ -12,3 +12,9 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello Full Stack Open!"
+      - name: What date and time is it
+        run: |
+          date
+      - name: Show me directory content
+        run: |
+          ls -ltr
